@@ -1,0 +1,42 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{user-select: none;
+    font-weight: 24px;
+    font-size: 26px;
+    color:gray;
+    background-color:chartreuse;
+}
+.title{
+    text-align: center;  
+}
+.div{
+    padding-top: 30px;
+    width: 370px;
+    display:flex;
+    justify-content: center;
+    gap:10px;
+}
+.input{
+    padding:8px 15px 8px 3px;
+    border-radius: 5px;
+}
+.btn{
+    background-color:white ;
+    padding: 8px;
+    border-radius: 5px;
+}
+.box{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.cards{
+    text-align: center;
+    padding: 25px 40px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+}
